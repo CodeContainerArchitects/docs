@@ -65,3 +65,31 @@ Fabric: A library and command-line tool for streamlining the execution of SSH co
 Boto3: A Python SDK for interacting with Amazon Web Services (AWS). It provides command-line tools for managing AWS resources programmatically.
 
 PyInstaller: A tool for converting Python applications into standalone executables. It offers a command-line interface for packaging Python applications with their dependencies.
+
+
+
+
+
+
+
+
+
+TensorFlow: A popular deep learning framework that requires the installation of TensorFlow and other related libraries, such as NumPy and CUDA, for GPU support.
+
+OpenCV: A computer vision library that requires the installation of OpenCV and its dependencies, such as NumPy and matplotlib, for image processing and analysis.
+
+Jupyter Notebook: An interactive computing environment that requires the installation of Jupyter and its dependencies, such as IPython, to create and run Jupyter notebooks.
+
+PyTorch: A deep learning framework that requires the installation of PyTorch and other related libraries, such as NumPy and CUDA, for GPU support.
+
+Scrapy: A web scraping framework that requires the installation of Scrapy and its dependencies, such as Twisted and lxml, to crawl and extract data from websites.
+
+Celery: A distributed task queue system that requires the installation of Celery and a message broker, such as RabbitMQ or Redis, to handle task execution.
+
+psycopg2: A PostgreSQL adapter for Python that requires the installation of psycopg2 and the PostgreSQL database server to interact with PostgreSQL databases.
+
+Twisted: An event-driven networking engine that requires the installation of Twisted and its dependencies for building networking applications.
+
+Selenium: A web testing framework that requires the installation of Selenium and a web driver, such as ChromeDriver or GeckoDriver, for automating web browser interactions.
+
+matplotlib: A plotting library that requires the installation of matplotlib and its dependencies, such as NumPy, for creating visualizations from data.
