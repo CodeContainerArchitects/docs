@@ -275,42 +275,79 @@ Do zarządzania biznesem. Zbudowany na Frappe Framework, pełnym frameworku apli
 30. Wtyczka linii statusu dla vima, która zapewnia linie statusu i monity dla kilku innych aplikacji, w tym zsh, bash, fish, tmux, IPython, Awesome, i3 i Qtile
     
     https://github.com/powerline/powerline
+- Dockerfile: no
+- requirements.txt: no
+- Not compatible with python2. 3.6+ recommended
+- AUR, pip, apt-get installators
 
 31. Szanujący prywatność, możliwy do zhakowania silnik metasearch
 
     https://github.com/searx/searx
+- Dockerfile: yes
+- Requirements.txt: yes
 
 32. **[web]** Służy do modelowania i dokumentowania nowoczesnych sieci.
 
     https://github.com/netbox-community/netbox
+- Dockerfile: no
+- Requirements.txt: yes
 
 33. Internetowy interfejs użytkownika, interfejs API REST i silnik zadań zbudowany na bazie Ansible. Jeden z projektów nadrzędnych dla Red Hat Ansible Automation Platform.
 
     https://github.com/ansible/awx
+- Dockerfile: no
+- requirements.txt: no
+- Installation using pip
 
 34. **[web]** Generacja stos backendu i frontendu za pomocą Pythona, w tym interaktywnej dokumentacji API.
 
     https://github.com/tiangolo/full-stack-fastapi-postgresql
+- Dockerfile: no
+- requirements.txt: no
+- Installation using pip and running cookiecutter
 
 35. **[web]** Serwer domowy Matrix o otwartym kodzie źródłowym.
 
     https://github.com/matrix-org/synapse
+- Dockerfile: no
+- requirements.txt: no
+- Debian/Ubuntu recommended
+- Apt get installation
 
 36. Umożliwia wykonywanie instrukcji podobnych do SQL bezpośrednio na tabelarycznych danych tekstowych, automatyczne buforowanie danych w celu przyspieszenia dodatkowych zapytań dotyczących tego samego pliku oraz wykonywanie instrukcji SQL bezpośrednio w wieloplikowych bazach danych sqlite3, bez konieczności ich scalania lub ładowania do pamięci
 
     https://github.com/harelba/q
+- Dockerfile: no
+- requirements.txt: yes
+- Brew, RPM, dpkg, windows installer, source zip installation possibilities
 
 37. Narzędzie do automatyzacji analizy open source (OSINT). Integruje się z niemal każdym dostępnym źródłem danych i wykorzystuje szereg metod analizy danych, ułatwiając nawigację po danych. Ma wbudowany serwer sieciowy zapewniający przejrzysty i intuicyjny interfejs internetowy, ale może być również używany całkowicie za pomocą wiersza poleceń. Jest napisany w Pythonie 3 i na licencji MIT.
 
     https://github.com/smicallef/spiderfoot
+- Dockerfile: no
+- Docker-compose: yes
+- requirements.txt: yes
+- Python3.7+
+- Pip installation
 
 38. **[cmd]** Deduplikujący program do tworzenia kopii zapasowych. Opcjonalnie obsługuje kompresję i uwierzytelnione szyfrowanie.
 
     https://github.com/borgbackup/borg
+- Dockerfile: no
+- requirements.txt: no
+- Do not require install anything, just run
 
 39. **[GUI]** Wieloplatformowy graficzny interfejs użytkownika popularnego programu do pobierania multimediów youtube-dl napisany w wxPython.
 
     https://github.com/MrS0m30n3/youtube-dl-gui
+- Dockerfile: no
+- requirements.txt: no
+- Python 2.7.3+
+- wxPython 3
+- TwoDict
+- GNU gettext (to build the package)
+- FFmpeg (optional, to post process video files)
+- Installation using setup.py, pip, or installter on windows
 
 
 ### Generowanie Dockerfile z użyciem modelu GPT
